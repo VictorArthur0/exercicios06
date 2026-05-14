@@ -1,0 +1,20 @@
+nota1 = int(input("1º nota: "))
+nota2 = int(input("2º nota: "))
+nota3 = int(input("3º nota: "))
+nota4 = int(input("4º nota: "))
+nota5 = int(input("5º nota: "))
+nota6 = int(input("6º nota: "))
+nota7 = int(input("7º nota: "))
+nota8 = int(input("8º nota: "))
+nota9 = int(input("9º nota: "))
+nota10 = int(input("10º nota: "))
+nota11 = int(input("11º nota: "))
+nota12 = int(input("12º nota: "))
+nota13 = int(input("13º nota: "))
+nota14 = int(input("14º nota: "))
+nota15 = int(input("15º nota: "))
+
+notas = [nota1,nota2,nota3,nota4,nota5,nota6,nota7,nota8,nota9,nota10,nota11,nota12,nota13,nota14,nota15]
+media = sum(notas) / len(notas)
+
+print(f"A média de notas da turma é de {media}.")
